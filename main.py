@@ -1,7 +1,7 @@
-import studen_repository
+from student_repository import *
 
 if __name__ == '__main__':
-    repository = studen_repository("users.csv")
-    stud=repository.get_all()
-    for i in stud:
-        print(i)
+    repository = Student_repository("users.csv")
+    students=repository.get_all()
+    for i in students:
+        print()
